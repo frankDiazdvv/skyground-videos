@@ -19,8 +19,8 @@ const TopNavBar = () => {
             </div>
 
             {/* Desktop menu */}
-            <div className="hidden md:flex flex-row items-center gap-4 text-lg text-white">
-                <Link href={'/'} className="hover:text-gray-400">Servicios</Link>
+            <div className="hidden md:flex flex-row items-center gap-4 text-xl text-white">
+                <Link href={'/#services'} className="hover:text-gray-400">Servicios</Link>
                 <Link href={'/'} className="hover:text-gray-400">Galeria</Link>
                 <Link href={'/'} className="hover:text-gray-400">Acerca de</Link>
                 <Link href={'/'} className="hover:text-gray-400">Contactanos</Link>
